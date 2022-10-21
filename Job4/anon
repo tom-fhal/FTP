@@ -1,0 +1,18 @@
+#le fichier proftpd.conf une fois modifié
+
+DefaultRoot    ~
+
+<Anonymous /media/ftpstuff>
+<Limit LOGIN>
+    AllowAll
+</Limit>
+    User  anonftp
+    Group  anonftp
+
+    UserAlias  anonymous anonftp
+<Directory *>
+    <Limit WRITE>
+       DenyAll
+    </Limit>
+</Directory>
+</Anonymous>

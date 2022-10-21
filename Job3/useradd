@@ -1,0 +1,2 @@
+echo "kalimac/nkalimac\n\n\n\n\n\n" | useradd Merry --create home 
+echo "secondbreakfast\nsecondbreakfast\n\n\n\n\n\n" | useradd Pippin --create home
